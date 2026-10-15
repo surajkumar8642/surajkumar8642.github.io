@@ -268,6 +268,35 @@
       gap: 12px;
     }
 
+    .project-card.primary-project {
+      background: linear-gradient(145deg, rgba(255, 250, 240, 0.96), rgba(230, 244, 241, 0.94));
+    }
+
+    .project-number {
+      width: 38px;
+      height: 38px;
+      display: grid;
+      place-items: center;
+      border-radius: 12px;
+      background: var(--accent);
+      color: white;
+      font-size: 0.82rem;
+      font-weight: 700;
+    }
+
+    .project-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: auto;
+    }
+
+    .project-actions a {
+      color: var(--accent-strong);
+      font-weight: 700;
+      font-size: 0.9rem;
+    }
+
     .project-meta {
       display: flex;
       justify-content: space-between;
@@ -411,6 +440,26 @@
           <p>The strongest public work from my GitHub profile, focused on application development, architecture, and practical tooling.</p>
         </div>
         <div class="projects">
+          <article class="project-card primary-project">
+            <span class="project-number">01</span>
+            <div class="project-meta">
+              <span>Bio Data</span>
+              <a href="#top">View profile</a>
+            </div>
+            <h3>Suraj Kumar Portfolio</h3>
+            <p>Bio data, technical background, core skills, development focus, public work, and direct contact information.</p>
+            <div class="project-actions"><a href="#skills">Skills →</a><a href="#contact">Contact →</a></div>
+          </article>
+          <article class="project-card primary-project">
+            <span class="project-number">02</span>
+            <div class="project-meta">
+              <span>Operations Platform</span>
+              <a href="https://campops-management-prototype.dynodechatcode.chatgpt.site" target="_blank" rel="noreferrer">Open live system</a>
+            </div>
+            <h3>Labour Camp and Laundry System</h3>
+            <p>Interactive project for resident biodata, QR cards, laundry, room inspections, security fines, accounts, reports, and role-based login.</p>
+            <div class="project-actions"><a href="https://campops-management-prototype.dynodechatcode.chatgpt.site" target="_blank" rel="noreferrer">Login to demo →</a></div>
+          </article>
           <article class="project-card">
             <div class="project-meta">
               <span>Automation</span>
@@ -418,14 +467,6 @@
             </div>
             <h3>channel-codex-browser</h3>
             <p>Standalone browser automation controller for Codex with human handoff support.</p>
-          </article>
-          <article class="project-card">
-            <div class="project-meta">
-              <span>.NET</span>
-              <a href="https://github.com/surajkumar8642/EduCommerce" target="_blank" rel="noreferrer">Open repo</a>
-            </div>
-            <h3>EduCommerce</h3>
-            <p>E-commerce learning project built with .NET concepts and application patterns.</p>
           </article>
           <article class="project-card">
             <div class="project-meta">
@@ -493,6 +534,11 @@
             <a href="mailto:surajkumar8642@gmail.com">surajkumar8642@gmail.com</a>
           </article>
           <article class="contact-card">
+            <h3>Mobile</h3>
+            <p>Call directly for project discussion and pricing.</p>
+            <a href="tel:+918809777593">+91 88097 77593</a>
+          </article>
+          <article class="contact-card">
             <h3>LinkedIn</h3>
             <p>Professional profile and network.</p>
             <a href="https://www.linkedin.com/in/suraj-kumar-5075bb184" target="_blank" rel="noreferrer">View LinkedIn</a>
@@ -502,7 +548,7 @@
     </main>
 
     <footer>
-      <p>Suraj Kumar. Practical software projects, automation, and system design.</p>
+      <p>© 2026 Suraj Kumar · <a href="mailto:Surajkumar8642@gmail.com">Surajkumar8642@gmail.com</a> · <a href="tel:+918809777593">+91 88097 77593</a></p>
     </footer>
   </div>
 </body>
